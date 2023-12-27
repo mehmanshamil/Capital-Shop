@@ -1,0 +1,49 @@
+#main{
+    .container{
+        .you{
+            font-size: 2.47rem;
+            color: black;
+            font-weight: 500;
+        }
+        #products{
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 30px;
+            .box{
+                width: 250px;
+                img{
+                    width: 100%;
+                }
+                button{
+                    color: #fff;
+                    background-color: red;
+                    border: 1px solid red;
+                    transition: 1s;
+                    padding: 10px;
+                    border-radius: 20px;
+                    i{
+                        margin: 0 5px ;
+                    }
+                    &:hover{
+                        background-color: #fff;
+                        color: red;
+                    }
+                }
+            }
+        }
+        #btn{
+            margin: 1rem;
+            color: #fff;
+            background-color: black;
+            border-radius: 20px;
+            border: 1px solid black;
+            transition: 1s;
+            padding: 10px;
+            &:hover{
+                color: black;
+                background-color: #fff;
+            }
+        }
+    }
+}
